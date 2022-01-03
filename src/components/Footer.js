@@ -7,12 +7,12 @@ const Footer = () => {
         
             <ul className="list-unstyled list-inline text-center">
               <li className="list-inline-item">
-                <a href="https://github.com/alexdmacon" className="btn-floating btn-fb mx-1">
+                <a href="https://github.com/alexdmacon" className="btn-floating mx-1">
                   <i className="fab fa-github"> </i>
                 </a>
               </li>
               <li className="list-inline-item">
-                <a href="https://www.linkedin.com/in/alexdmacon/" className="btn-floating btn-li mx-1">
+                <a href="https://www.linkedin.com/in/alexdmacon/" className="btn-floating mx-1">
                   <i className="fab fa-linkedin-in"> </i>
                 </a>
               </li>

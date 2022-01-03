@@ -1,10 +1,10 @@
 import React from 'react'
-import NavTabs from './NavTabs'
+import Navigation from './Navigation'
 
-const Header = () => {
+const Header = ( { currentPage, handlePageChange } ) => {
     return (
         <div>
-            <NavTabs / >
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange}  / >
         </div>
     )
 };
