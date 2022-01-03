@@ -13,6 +13,9 @@ const PortfolioContainer = () => {
       {/* Header, which contains the NavTabs, will render on every page */}
       <Header />
 
+
+      {/* Footer will render on every page */}
+      <Footer / >
     </div>
   );
 };
