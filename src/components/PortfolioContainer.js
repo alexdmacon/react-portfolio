@@ -5,6 +5,7 @@ import Project from "./pages/Project";
 import Contact from "./pages/Contact";
 import Header from "./Header";
 import Footer from "./Footer";
+import Resume from "./pages/Resume"
 
 const PortfolioContainer = () => {
 
@@ -19,6 +20,9 @@ const PortfolioContainer = () => {
     }
     if (currentPage === 'Project') {
       return <Project />;
+    }
+    if (currentPage === 'Resume') {
+      return <Resume />;
     }
     if (currentPage === 'Contact') {
       return <Contact />;

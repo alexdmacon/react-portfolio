@@ -4,7 +4,7 @@ import headshot from "../../assets/images/new-me.jpeg"
 
 const About = () => {
   return (
-    <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div className="d-flex flex-column flex-md-row justify-content-center mb-5">
       <div className="flex-shrink-0 align-items-center">
         <img className="headshot" src={headshot} alt="headshot"></img>
       </div>
@@ -25,16 +25,8 @@ const About = () => {
         <p>
           I have a bachelor’s degree from the University of North Texas and I'm
           working on a web development certification from Southern Methodist
-          University. I live in Dallas, but am open to remote work. I have
-          experience developing full-stack applications with the following
-          technologies:
+          University. I live in Dallas, but am open to remote work.
         </p>
-            <ul>
-            <li>JavaScript, JQuery, and CSS</li>
-            <li>Node.js, Express, MySQL, MongoDB</li>
-            <li>Web APIs, GraphQL, Bootstrap, React.js</li>
-            </ul>
-
             <p>That's the professional me. In my free time, I also love to read, go to the movies, try new restaurants with my wife, and ride my bike all over the city.</p>
 
       </div>
