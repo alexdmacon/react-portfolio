@@ -3,9 +3,8 @@ import headshot from "../../assets/images/new-me.jpeg"
 
 const About = () => {
   return (
-    <div className="row">
+    <div className="row d-flex justify-content-center align-items-center">
       <div class="col-4">
-        <h2>About Me</h2>
         <img className="headshot" src={headshot} alt="headshot"></img>
       </div>
 
