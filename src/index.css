@@ -15,6 +15,7 @@ code {
 .headshot {
   height:250px;
   width:250px;
+  padding: 30px;
 }
 
 .projectImg {
