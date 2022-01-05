@@ -1,12 +1,20 @@
-import React, { useState } from "react";
-
+import React from "react";
 
 const Contact = () => {
-    return (
-        <div>
-            <h1>HELLO WELCOME TO THE CONTACT PAGE</h1>
-        </div>
-    )
-}
+  return (
+    <div className="container">
+      <h1>Contact Me</h1>
+      <form>
+        <label for="name">Name</label>
+        <input type="text"></input>
+        <label for="email"> Email </label>
+        <input type="text"></input>
+        <label for="name">Message</label>
+        <textarea></textarea>
+        <button type="submit" className="send">Send</button>
+      </form>
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;
