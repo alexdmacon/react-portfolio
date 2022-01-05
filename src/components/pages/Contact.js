@@ -1,9 +1,16 @@
 import React from "react";
+import validateEmail from "../../utils/validateEmail";
+
+function Form() {
+    
+}
+
+
 
 const Contact = () => {
   return (
     <div className="container">
-      <h1>Contact Me</h1>
+      <h2>Contact Me</h2>
       <form>
         <label for="name">Name</label>
         <input type="text"></input>
@@ -11,8 +18,15 @@ const Contact = () => {
         <input type="text"></input>
         <label for="name">Message</label>
         <textarea></textarea>
-        <button type="submit" className="send">Send</button>
+        <button type="submit">Submit</button>
       </form>
+
+
+
+
+
+    <h2>Better Yet...</h2>
+    <p>Just email me: <a href="mailto:alexdmacon@gmail.com">alexdmacon@gmail.com</a></p>
     </div>
   );
 };
