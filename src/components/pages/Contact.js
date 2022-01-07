@@ -13,7 +13,7 @@ const Contact = () => {
   const { name, email, message } = formState;
 
   function handleChange(e) {
-    
+
     console.log(`I am now targeting ${e.target.name}`)
 
     if (e.target.name === "email") {
@@ -80,7 +80,7 @@ const Contact = () => {
           )}
         </div>
       </form>
-
+            <br></br><br></br>
       <h2>Better Yet...</h2>
       <p>
         Just email me:{" "}

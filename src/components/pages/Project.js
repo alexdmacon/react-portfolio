@@ -19,7 +19,7 @@ const Project = () => {
                 </p>
                 <p>
                   <ul>
-                    <a className="project-links" href="https://github.com/alexdmacon/task-mp3"><li>GitHub Repository</li></a>
+                    <a className="project-links" href="https://github.com/alexdmacon/exquisite-corpse"><li>GitHub Repository</li></a>
                     <a className="project-links" href="https://exqu-game.herokuapp.com"><li>Deployed</li></a>
                   </ul>
                 </p>
