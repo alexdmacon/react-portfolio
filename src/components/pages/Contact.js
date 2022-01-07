@@ -21,9 +21,11 @@ const Contact = () => {
       } else {
         setErrorMessage("");
       }
-    } else {
+    } 
+
+    else {
       if (!e.target.value.length) {
-        setErrorMessage(`You must enter a name.`);
+        setErrorMessage(`You must enter a ${e.target.name}`);
       } else {
         setErrorMessage("");
       }
@@ -49,15 +51,16 @@ const Contact = () => {
           defaultValue={name}
           onBlur={handleChange}
         ></input>
-        <label for="email"> Email </label>
+        <label for="email">Email</label>
         <input
           type="email"
           name="email"
           defaultValue={email}
           onBlur={handleChange}
         ></input>
-        <label for="name">Message</label>
+        <label for="message">Message</label>
         <textarea
+          type="text"
           name="message"
           rows="3"
           defaultValue={message}
