@@ -5,8 +5,8 @@ import headshot from "../../assets/images/new-me.jpeg"
 const About = () => {
   return (
     <div className="d-flex flex-column flex-md-row justify-content-center mb-5">
-      <div className="flex-shrink-0 align-items-center">
-        <img className="headshot" src={headshot} alt="headshot"></img>
+      <div className="align-items-center">
+        <img className="img-fluid" src={headshot} alt="headshot"></img>
       </div>
 
       <div className="flex-grow-1">
