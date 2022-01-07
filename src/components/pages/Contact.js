@@ -23,7 +23,7 @@ const Contact = () => {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is a required entry.`);
+        setErrorMessage(`You must enter a name.`);
       } else {
         setErrorMessage("");
       }

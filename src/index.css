@@ -13,10 +13,33 @@
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif; */
 
-.home-text {
+.home-text,
+h2 {
   font-family: 'Montserrat';
   font-weight: bold;
   color: var(--very-dark)
+}
+
+p {
+  font-family: Open Sans;
+  color: var(--dark);
+  font-weight: bold;
+}
+
+.project-container {
+  padding-top: 15px;
+}
+
+.project {
+
+}
+
+
+.about-text {
+  padding:15px;
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  color: var(--dark)
 }
 
 .home {
@@ -34,10 +57,8 @@ h3 {
 }
 
 .nav-item {
-  background: var(--red);
-  border: var(--dark);
-  border-width: 2px;
-  border-style: solid;
+  background: var(--very-dark);
+  border: var(--very-dark);
 }
 
 .nav-item:hover {
@@ -46,16 +67,20 @@ h3 {
 
 .nav-item a {
   color: var(--eggshell);
-  font-family: 'Open Sans';
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 
 .nav-item a.nav-link.active{
-  background-color: var(--eggshell);
+  background-color: var(--very-dark);
   color: var(--red)
 }
 
 .nav-item a:hover {
+  color: var(--red)
+}
+
+.project-links:hover {
   color: var(--red)
 }
 
@@ -70,9 +95,9 @@ h3 {
 }
 
 .headshot {
-  height: 250px;
-  width: 250px;
+
   padding: 30px;
+  border-radius: 50%
 }
 
 @media only screen and (max-width: 768px) {
