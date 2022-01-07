@@ -13,6 +13,9 @@ const Contact = () => {
   const { name, email, message } = formState;
 
   function handleChange(e) {
+    
+    console.log(`I am now targeting ${e.target.name}`)
+
     if (e.target.name === "email") {
       const isValid = validateEmail(e.target.value);
 
@@ -64,7 +67,7 @@ const Contact = () => {
           name="message"
           rows="3"
           defaultValue={message}
-          onBlue={handleChange}
+          onBlur={handleChange}
         ></textarea>
         <button type="submit">Submit</button>
 
