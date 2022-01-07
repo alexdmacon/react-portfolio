@@ -32,11 +32,10 @@ const PortfolioContainer = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    
     <div>
       {/* Header, which contains the Navigation, will render on every page */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main>
+      <main className="h-100 d-flex justify-content-center align-items-center">
       {/* Page selected on navbar will render here conditionally, default state to home page  */}
       {renderPage()}
       </main>
