@@ -4,16 +4,16 @@ import React from "react";
 function Navigation({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
-      <li className="navbar-brand">
+      <li className="nav-item ml-auto">
         <a
           href="#home"
           onClick={() => handlePageChange("Home")}
           className={currentPage === "Home" ? "nav-link active" : "nav-link"}
         >
-          Alex Macon
+          Home
         </a>
       </li>
-      <li className="nav-item ml-auto">
+      <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange("About")}
