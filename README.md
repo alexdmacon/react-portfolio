@@ -1,11 +1,11 @@
 # react-portfolio
 
 ## Description
-This is a portfolio I developed to practice working with React.js. I'm not especially pleased with the 
+This is a portfolio I developed to practice working with React.js and writing single page applications. I'm not at all pleased with the way it looks—I'll be developing another actual portfolio for the world to see—but I did indeed learn a lot about React putting it together.
 
 [The app is deployed here](https://alexdmacon.github.io/react-portfolio/)
 
-![gif]()
+![gif](src/assets/images/portfolio.gif)
 
 ## Table of Contents
 
@@ -14,12 +14,13 @@ This is a portfolio I developed to practice working with React.js. I'm not espec
 - [Credits](#credits)
 
 ## Installation
-
+The app is deployed on GitHub Pages and does not require installation, but if for whatever reason you'd like to tinker with somebody else's portfolio, you can download the source code and run it locally by installing the appropriate dependencies (`npm i`) and entering `npm start` in your command line interface. 
 
 ## Usage
+The single page application renders content responding to the user's clicks on the navbar. You can see an "About Me" section, a section with links to some of my work, a resume section with a link to my resume, and a contact form with validation for input.
 
 
-![Screenshot]()
+![Screenshot](src/assets/images/react-screenshot.png)
 
 Have a great day.
 
