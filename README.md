@@ -3,7 +3,7 @@
 ## Description
 This is a portfolio I developed to practice working with React.js. I'm not especially pleased with the 
 
-[The app is deployed here]()
+[The app is deployed here](https://alexdmacon.github.io/react-portfolio/)
 
 ![gif]()
 
