@@ -3,7 +3,7 @@ import headshot from "../../assets/images/new-me.jpeg";
 
 const About = () => {
   return (
-    <div className="d-flex flex-column flex-md-row justify-content-center mb-5">
+    <div className="d-flex flex-column flex-md-row justify-content-center mb-5 container">
       <div className="align-items-center">
         <img className="img-fluid headshot" src={headshot} alt="headshot"></img>
       </div>
