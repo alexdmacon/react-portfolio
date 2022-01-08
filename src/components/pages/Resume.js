@@ -17,7 +17,7 @@ const Resume = () => {
           <li>Node.js, Express, MySQL, MongoDB</li>
           <li>Web APIs, GraphQL, Bootstrap, React.js</li>
         </ul>
-        <h3>More stuff on professional experience etc. coming later</h3>
+        <h3>More stuff on professional experience etc., plus a better looking page</h3>
       </div>
     </div>
   );

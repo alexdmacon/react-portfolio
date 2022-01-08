@@ -8,7 +8,7 @@ const About = () => {
         <img className="img-fluid headshot" src={headshot} alt="headshot"></img>
       </div>
 
-      <div className="flex-grow-1 about-text">
+      <div className="about-text">
         <p>
           After years as a professional journalist writing stories for
           publications like D Magazine, Texas Monthly, and Southwest: The

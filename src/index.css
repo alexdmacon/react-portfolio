@@ -96,7 +96,8 @@ h3 {
 }
 
 .fab:hover,
-.far:hover {
+.far:hover,
+ul li:hover {
   color: var(--red);
 }
 
