@@ -51,16 +51,17 @@ const Contact = () => {
         <p className="mb-5">Send me an email (preferred), dispatch a carrier pigeon to my city and hope for the best, or fill out the contact form. Can't wait to hear from you. Or from the pigeon.</p>
         <ul className="list-unstyled pl-md-5 mb-5">
           <li className="d-flex mb-2">
-            <span className="mr-3">
+          <span className="mr-3">
             <span className="fas fa-envelope"></span>
-            <a href="mailto:alexdmacon@gmail.com">alexdmacon@gmail.com</a>
+            <a href="mailto:alexdmacon@gmail.com" className="contact-link">alexdmacon@gmail.com</a>
             </span>
           </li>
           <li className="d-flex mb-2">
-            <span className="mr-3">
+            <div><span className="mr-3">
             <span className="fas fa-map-pin"></span>
-            <a href="https://www.google.com/maps/place/Dallas,+TX/data=!4m2!3m1!1s0x864c19f77b45974b:0xb9ec9ba4f647678f?sa=X&ved=2ahUKEwijs6ihobD1AhWEnGoFHWlWCNgQ8gF6BAgOEAE">Dallas, TX</a>
+            <a href="https://www.google.com/maps/place/Dallas,+TX/data=!4m2!3m1!1s0x864c19f77b45974b:0xb9ec9ba4f647678f?sa=X&ved=2ahUKEwijs6ihobD1AhWEnGoFHWlWCNgQ8gF6BAgOEAE" target="_blank" className="contact-link">Dallas, TX</a>
             </span>
+            </div>
           </li>
         </ul>
       </div>
@@ -70,7 +71,10 @@ const Contact = () => {
       <form className="mb-5" id="form-contact" onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-md-12 form-group">
-        <label for="name">Name</label>
+       <p></p> 
+      <div>
+       <label for="name" className="col-form-label label">Name</label>
+       </div>
         <input
           type="text"
           name="name"
@@ -81,7 +85,9 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col-md-12 form-group">
-        <label for="email">Email</label>
+            <div>
+        <label for="email" className="col-form-label label">Email</label>
+        </div>
         <input
           type="email"
           name="email"
@@ -92,7 +98,9 @@ const Contact = () => {
         </div>
         <div className="row">
           <div className="col-md-12 form-group">
-        <label for="message">Message</label>
+            <div>
+        <label for="message" className="col-form-label label">Message</label>
+        </div>
         <textarea
           type="text"
           name="message"

@@ -16,13 +16,20 @@ font-family: 'Open Sans', sans-serif; */
 .home-text,
 h2 {
   font-family: 'Montserrat';
-  font-weight: bold;
-  color: var(--very-dark)
+  font-weight: bolder;
+  color: var(--very-dark);
+  padding:15px;
 }
 
 p {
   font-family: Open Sans;
   color: var(--dark);
+  font-weight: bold;
+}
+
+.label {
+  font-family: Open Sans;
+  color: var(--very-dark);
   font-weight: bold;
 }
 
@@ -80,14 +87,27 @@ h3 {
   color: var(--red)
 }
 
+button {
+  background: var(--very-dark);
+  color: var(--eggshell);
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
 .project-links,
-.resume {
+.resume,
+.contact-link {
   color: var(--very-dark)
 }
 
 .project-links:hover,
-.resume:hover {
+.resume:hover,
+.contact-link:hover {
   color: var(--red)
+}
+
+.fas {
+  padding: 10px;
 }
 
 .fab,
@@ -95,8 +115,16 @@ h3 {
   color: var(--dark)
 }
 
+.contact-link {
+  padding:15px;
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  color: var(--dark)
+}
+
 .fab:hover,
 .far:hover,
+.fas:hover,
 ul li:hover {
   color: var(--red);
 }
