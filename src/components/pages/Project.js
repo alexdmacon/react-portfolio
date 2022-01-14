@@ -26,12 +26,14 @@ const Project = () => {
                     <a
                       className="project-links"
                       href="https://github.com/alexdmacon/exquisite-corpse"
+                      target="_blank"
                     >
                       <li>GitHub Repository</li>
                     </a>
                     <a
                       className="project-links"
                       href="https://exqu-game.herokuapp.com"
+                      target="_blank"
                     >
                       <li>Deployed</li>
                     </a>
@@ -57,12 +59,14 @@ const Project = () => {
                     <a
                       className="project-links"
                       href="https://github.com/alexdmacon/task-mp3"
+                      target="_blank"
                     >
                       <li>GitHub Repository</li>
                     </a>
                     <a
                       className="project-links"
                       href="https://alexdmacon.github.io/task-mp3/"
+                      target="_blank"
                     >
                       <li>Deployed</li>
                     </a>
@@ -87,12 +91,14 @@ const Project = () => {
                     <a
                       className="project-links"
                       href="https://github.com/alexdmacon/ballin-on-budget"
+                      target="_blank"
                     >
                       <li>GitHub Repository</li>
                     </a>
                     <a
                       className="project-links"
                       href="https://aqueous-ravine-17872.herokuapp.com/"
+                      target="_blank"
                     >
                       <li>Deployed</li>
                     </a>
@@ -118,12 +124,14 @@ const Project = () => {
                     <a
                       className="project-links"
                       href="https://github.com/alexdmacon/books-r-us"
+                      target="_blank"
                     >
                       <li>GitHub Repository</li>
                     </a>
                     <a
                       className="project-links"
                       href="https://peaceful-shore-50805.herokuapp.com/"
+                      target="_blank"
                     >
                       <li>Deployed</li>
                     </a>
@@ -148,12 +156,14 @@ const Project = () => {
                     <a
                       className="project-links"
                       href="https://github.com/alexdmacon/note-taker"
+                      target="_blank"
                     >
                       <li>GitHub Repository</li>
                     </a>
                     <a
                       className="project-links"
                       href="https://powerful-spire-74312.herokuapp.com/"
+                      target="_blank"
                     >
                       <li>Deployed</li>
                     </a>
@@ -177,12 +187,14 @@ const Project = () => {
                     <a
                       className="project-links"
                       href="https://github.com/alexdmacon/weather-dashboard"
+                      target="_blank"
                     >
                       <li>GitHub Repository</li>
                     </a>
                     <a
                       className="project-links"
                       href="https://alexdmacon.github.io/weather-dashboard/"
+                      target="_blank"
                     >
                       <li>Deployed</li>
                     </a>
