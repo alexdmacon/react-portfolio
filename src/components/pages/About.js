@@ -16,7 +16,7 @@ const About = () => {
           what’s a bigger story than tech?
         </p>
         <p>
-          Getting into software engineering felt like less of a career change
+          Getting into software engineering has felt less like a career change
           than the natural next step for me. Curiosity, self-reliance, and grit are
           fundamental to both journalism and programming. I'm a lifelong
           learner, and there's always something new to learn in web development.
