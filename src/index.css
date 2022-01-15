@@ -6,6 +6,11 @@
   --eggshell: #e3e3e3;
 }
 
+.all {
+background-color: var(--eggshell);
+}
+
+
 .container {
   max-width: unset;
 }
@@ -183,10 +188,6 @@ ul li:hover {
   padding-top: 15px;
 }
 
-.resume-link {
-font: var(--red);
-font-family: "Open Sans"
-}
 
 
 @media only screen and (max-width: 768px) {

@@ -35,12 +35,14 @@ const PortfolioContainer = () => {
     <div>
       {/* Header, which contains the Navigation, will render on every page */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <div className="background">
       <main className="h-100 d-flex justify-content-center align-items-center">
       {/* Page selected on navbar will render here conditionally, default state to home page  */}
       {renderPage()}
       </main>
       {/* Footer will render on every page */}
       <Footer / >
+      </div>
     </div>
   );
 
