@@ -2,23 +2,58 @@ import React from "react";
 
 const Resume = () => {
   return (
-    <div>
-      <div className="container resume-container">
-        <h3>
-        <a href="https://drive.google.com/file/d/1gU7ZsYze4bEanXvJjRZ4vBMjR2zyEMHq/view?usp=sharing" target="_blank" className="resume">
-          See My Resume
-        </a>
-        </h3> 
+    <div className="container resume-container">
+      <div className="row">
+        <div className="col-md-12" align="center">
+          <h2>Resume</h2>
+        </div>
+        <div className="col-md-3">
+          <h2>Technologies and Tools</h2>
+        </div>
+        <div className="col-md-9">
+          <ul className="list-group list-group-horizontal">
+            <li><i className="fab fa-js fa-5x"> </i></li>
+            <li className="list-group">Skills</li>
+            <li className="list-group">Skills</li>
+            <li className="list-group">Skills</li>
+            <li className="list-group">Skills</li>
+            <li className="list-group">Skills</li>
+
+          </ul>
+        </div>
+        <div className="col-md-3">
+          <h2>Experience</h2>
+        </div>
+        <div className="col-md-9">
+          <ul>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+          </ul>
+        </div>
+        <div className="col-md-3">
+          <h2>Education</h2>
+        </div>
+        <div className="col-md-9">
+          <ul>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+            <li>Skills</li>
+          </ul>
+        </div>
+
       </div>
-      <div>
-        <h3>My technical proficiencies:</h3>
-        <ul>
-          <li>JavaScript, JQuery, and CSS</li>
-          <li>Node.js, Express, MySQL, MongoDB</li>
-          <li>Web APIs, GraphQL, Bootstrap, React.js</li>
-        </ul>
-        <h3>More stuff on professional experience etc., plus a better looking page</h3>
-      </div>
+
+
+
     </div>
   );
 };

@@ -111,7 +111,8 @@ button {
 }
 
 .fab,
-.far {
+.far,
+.fas {
   color: var(--dark)
 }
 
@@ -120,6 +121,28 @@ button {
   font-family: 'Open Sans';
   font-weight: bolder;
   color: var(--dark)
+}
+
+ul {
+  list-style-type: none;
+  display: table;
+  margin: 0 auto;
+}
+
+ul li {
+  margin: 1px;
+  padding: 5px;
+}
+
+.project-img {
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+  margin:10px;
+}
+
+.project-img:hover {
+  box-shadow:  5px 5px 8px var(--red);
+  transform: scale(1.05);
 }
 
 .fab:hover,
