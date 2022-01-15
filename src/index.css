@@ -21,6 +21,8 @@ h2 {
   padding:15px;
 }
 
+
+
 p {
   font-family: Open Sans;
   color: var(--dark);
@@ -54,8 +56,23 @@ p {
 }
 
 h3 {
-  font-family: 'Open Sans';
-  color: var(--dark)
+  font-family: 'Montserrat';
+  color: var(--dark);
+  font-weight: bolder;
+}
+
+h5 {
+  font-family: "Open Sans";
+  color: var(--very-dark)
+}
+
+h6 a {
+  text-decoration: none;
+  color: var(--red)
+}
+
+h6 a:hover {
+  color: var(--very-dark)
 }
 
 .nav {
@@ -160,6 +177,17 @@ ul li:hover {
 .resume-container {
   padding-top: 20px;
 }
+
+.experience-item,
+.education-item {
+  padding-top: 15px;
+}
+
+.resume-link {
+font: var(--red);
+font-family: "Open Sans"
+}
+
 
 @media only screen and (max-width: 768px) {
   main {

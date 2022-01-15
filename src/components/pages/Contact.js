@@ -49,21 +49,15 @@ const Contact = () => {
         <div className="col-md-5 mr-auto">
       <h2>Contact Me</h2>
         <p className="mb-5">Send me an email (preferred), dispatch a carrier pigeon to my city and hope for the best, or fill out the contact form. Can't wait to hear from you. Or from the pigeon.</p>
-        <ul className="list-unstyled pl-md-5 mb-5">
-          <li className="d-flex mb-2">
           <span className="mr-3">
             <span className="fas fa-envelope"></span>
             <a href="mailto:alexdmacon@gmail.com" className="contact-link">alexdmacon@gmail.com</a>
             </span>
-          </li>
-          <li className="d-flex mb-2">
             <div><span className="mr-3">
             <span className="fas fa-map-pin"></span>
             <a href="https://www.google.com/maps/place/Dallas,+TX/data=!4m2!3m1!1s0x864c19f77b45974b:0xb9ec9ba4f647678f?sa=X&ved=2ahUKEwijs6ihobD1AhWEnGoFHWlWCNgQ8gF6BAgOEAE" target="_blank" className="contact-link">Dallas, TX</a>
             </span>
-            </div>
-          </li>
-        </ul>
+            </div> 
       </div>
 
 
