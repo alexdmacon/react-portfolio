@@ -6,6 +6,8 @@
   --eggshell: #e3e3e3;
 }
 
+html, body, #root { height: 100%; }
+
 .all {
 background-color: var(--eggshell);
 }
@@ -23,7 +25,7 @@ h2 {
   font-family: 'Montserrat';
   font-weight: bolder;
   color: var(--very-dark);
-  padding:15px;
+  padding: 15px 15px 15px 0;
 }
 
 
@@ -194,4 +196,9 @@ ul li:hover {
   main {
     width: 100%;
   }
+}
+
+.page-footer {
+  position: sticky;
+  top: 100vh;
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Fragment } from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Project from "./pages/Project";
@@ -32,18 +32,18 @@ const PortfolioContainer = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <Fragment>
       {/* Header, which contains the Navigation, will render on every page */}
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       <div className="background">
-      <main className="h-100 d-flex justify-content-center align-items-center">
-      {/* Page selected on navbar will render here conditionally, default state to home page  */}
-      {renderPage()}
-      </main>
-      {/* Footer will render on every page */}
-      <Footer / >
+        <main className="h-100 d-flex justify-content-center align-items-center">
+        {/* Page selected on navbar will render here conditionally, default state to home page  */}
+        {renderPage()}
+        </main>
       </div>
-    </div>
+      {/* Footer will render on every page */}
+      <Footer />
+    </Fragment>
   );
 
 };

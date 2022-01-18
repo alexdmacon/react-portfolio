@@ -1,20 +1,26 @@
 import React from "react";
 
+const ResumeHeader = ({title}) => {
+  return (
+    <div className="col-lg-3">
+      <h2>{title}</h2>
+    </div>
+  )
+}
+
 const Resume = () => {
   return (
-    <div className="container resume-container">
+    <div className="container resume-container mt-5">
       <div className="row">
-        <div className="col-md-3">
-        <h2></h2>
+        <div className="col-lg-3"></div>
+        <div className="col-lg-9 d-flex flex-row-reverse">
+          <h6><a className="resume-link" target="_blank" href="https://drive.google.com/file/d/1gU7ZsYze4bEanXvJjRZ4vBMjR2zyEMHq/view"><em>Download Full Resume</em></a></h6>
         </div>
-        <div className="col-md-9 d-flex flex-row-reverse">
-        <h6><a className="resume-link" target="_blank" href="https://drive.google.com/file/d/1gU7ZsYze4bEanXvJjRZ4vBMjR2zyEMHq/view"><em>Download Full Resume</em></a></h6>
-        </div>
-        <div className="col-md-3">
-          <h2>Technologies & Tools</h2>
-        </div>
-        <div className="col-md-9" tech-item>
-          <ul className="list-group list-group-horizontal-md text-center">
+      </div>
+      <div className="row mt-3">
+        <ResumeHeader title="Technologies & Tools" />
+        <div className="col-lg-9" tech-item>
+          <ul className="list-group list-group-horizontal flex-wrap text-center">
             <li>
               <i className="fab fa-js fa-5x"> </i>
             </li>
@@ -41,11 +47,10 @@ const Resume = () => {
             </li>
           </ul>
         </div>
-        <br></br>
-        <div className="col-md-3">
-          <h2>Experience</h2>
-        </div>
-        <div className="col-md-9">
+      </div>
+      <div className="row mt-3">
+        <ResumeHeader title="Experience" />
+        <div className="col-lg-9">
           <div className="experience-item">
             <h3>Senior Digital Editor at D Magazine</h3>
             <h5><em>03/2021-Present</em></h5>
@@ -94,10 +99,10 @@ const Resume = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-3">
-          <h2>Education</h2>
-        </div>
-        <div className="col-md-9">
+      </div>
+      <div className="row mt-3">
+        <ResumeHeader title="Education" />
+        <div className="col-lg-9">
           <div className="education-item">
             <h3>The University of North Texas</h3>
             <p>
